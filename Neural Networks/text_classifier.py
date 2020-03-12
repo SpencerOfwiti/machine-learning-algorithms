@@ -6,7 +6,7 @@ from tensorflow import keras
 imdb = keras.datasets.imdb
 
 # splitting our dataset into training and testing data
-(train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words=88000)
+(train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words=100000)
 
 # converting integer encoded words to string
 # a dictionary mapping words to an integer index
@@ -40,7 +40,7 @@ test_data = keras.preprocessing.sequence.pad_sequences(test_data,
 
 # defining the model
 model = keras.Sequential()
-model.add(keras.layers.Embedding(88000, 16))
+model.add(keras.layers.Embedding(100000, output_dim=16, input_length=250))
 model.add(keras.layers.GlobalAveragePooling1D())
 model.add(keras.layers.Dense(16, activation='relu'))
 model.add(keras.layers.Dense(1, activation='sigmoid'))
@@ -69,12 +69,6 @@ fitModel = model.fit(x_train, y_train, epochs=40, batch_size=512,
 # testing the model
 results = model.evaluate(test_data, test_labels)
 print(results)
-
-test_review = test_data[0]
-predict = model.predict([test_review])
-print('Review:', decode_review(test_review))
-print('Prediction:', predict[0])
-print('Actual:', test_labels[0])
 
 # saving the model
 model.save('text_classifier_model.h5')
