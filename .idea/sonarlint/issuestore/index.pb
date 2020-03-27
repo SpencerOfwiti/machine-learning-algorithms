@@ -12,3 +12,7 @@ S
 SVM/svm.py,6/8/68166129958a18ef639629fba824c7a9113c331c
 V
 &Linear Regression/linear_regression.py,9/1/91d2d4a63172b6a4e05afff32a4a25038af2ad2d
+W
+'Reinforcement Learning/trash_blaster.py,7/8/786785eab4d65e5e4e6c48cf8c740e501ac28d36
+G
+Neural Networks/imdb.py,1/5/15e08f87d529ad0a2bd3f95223627ac37743dd8c

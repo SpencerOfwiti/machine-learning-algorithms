@@ -7,6 +7,7 @@ imdb = keras.datasets.imdb
 
 # splitting our dataset into training and testing data
 (train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words=100000)
+print(train_data)
 
 # converting integer encoded words to string
 # a dictionary mapping words to an integer index
