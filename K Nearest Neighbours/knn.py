@@ -7,7 +7,7 @@ from sklearn.utils import shuffle
 from sklearn.neighbors import KNeighborsClassifier
 
 # loading data
-data = pd.read_csv('KNN/car.data')
+data = pd.read_csv('car.data')
 print(data.head())  # display first 5 rows
 
 # converting non numerical data to integers
