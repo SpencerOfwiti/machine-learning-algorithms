@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Recommender Systems/lab4-recommender-systems" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lab1-neural-networks" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/python-mnist" vcs="Git" />
   </component>
