@@ -1,4 +1,4 @@
-# Stock ML 
+# Machine Learning Algorithms
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/SpencerOfwiti/machine-learning-algorithms.svg)
