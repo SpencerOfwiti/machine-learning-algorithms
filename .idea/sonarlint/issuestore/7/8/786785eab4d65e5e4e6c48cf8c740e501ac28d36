@@ -1,7 +1,0 @@
-
-ypython:S3776Ğ"TRefactor this function to reduce its Cognitive Complexity from 34 to the 15 allowed.(ùâƒ™øÿÿÿÿ8ßÚóÀ‘.
-;python:S125"Remove this commented out code.(Ø»ªÎıÿÿÿÿ
-Ppython:S1862ğ"+This branch duplicates the one on line 490.(ˆŠêúÿÿÿÿ8™»şï.
-Ipython:S1481"+Remove the unused local variable "blaster".(Ÿİï›üÿÿÿÿ
-Jpython:S1481É"%Remove the unused local variable "i".(ıš®ÿûÿÿÿÿ8­øíÂ‘.
-mpython:S1854é"MRemove this assignment to local variable 'position'; the value is never used.(¼Ô8—ŒŠğ.
