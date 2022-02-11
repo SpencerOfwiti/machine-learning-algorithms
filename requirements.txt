@@ -97,7 +97,7 @@ plaster==1.0
 plaster-pastedeploy==0.7
 preshed==3.0.2
 prompt-toolkit==3.0.4
-protobuf==3.11.3
+protobuf==3.15.0
 ptyprocess==0.6.0
 pyarrow==0.16.0
 pyasn1==0.4.8
