@@ -74,7 +74,7 @@ multiaddr==0.0.9
 murmurhash==1.0.2
 netaddr==0.7.19
 networkx==2.4
-nltk==3.6.5
+nltk==3.6.6
 numba==0.48.0
 numexpr==2.7.1
 numpy==1.18.1
